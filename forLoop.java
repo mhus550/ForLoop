@@ -18,6 +18,11 @@ public class ForLoop {
 			sum = sum + x;	
 		}
 		System.out.println("The sum: " + sum); //  The sum: 55
-		
+		int multiply=0;
+		for(int y =1; y<=10; y++) {
+			multiply = multiply * y;
+		}
+
+		System.out.println(multiply);
 	}
 }
